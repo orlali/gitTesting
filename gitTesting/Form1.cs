@@ -16,5 +16,10 @@ namespace gitTesting
         {
             InitializeComponent();
         }
+
+        private void btnSayHi_Click(object sender, EventArgs e)
+        {
+            lblOutput.Text = "Hello Git World!";
+        }
     }
 }
